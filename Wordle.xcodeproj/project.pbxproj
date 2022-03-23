@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		1075C9F327EBD74B001E10E7 /* WordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1075C9F227EBD74B001E10E7 /* WordleApp.swift */; };
 		1075C9F527EBD74B001E10E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1075C9F427EBD74B001E10E7 /* ContentView.swift */; };
-		1075C9F727EBD750001E10E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1075C9F627EBD750001E10E7 /* Assets.xcassets */; };
 		1075C9FA27EBD750001E10E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1075C9F927EBD750001E10E7 /* Preview Assets.xcassets */; };
+		1075CA0327EBD899001E10E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1075CA0227EBD899001E10E7 /* Assets.xcassets */; };
+		1075CA0527EBD95B001E10E7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1075CA0427EBD95B001E10E7 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1075C9EF27EBD74B001E10E7 /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1075C9F227EBD74B001E10E7 /* WordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleApp.swift; sourceTree = "<group>"; };
 		1075C9F427EBD74B001E10E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1075C9F627EBD750001E10E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1075C9F927EBD750001E10E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1075CA0227EBD899001E10E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1075CA0427EBD95B001E10E7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			children = (
 				1075C9F227EBD74B001E10E7 /* WordleApp.swift */,
 				1075C9F427EBD74B001E10E7 /* ContentView.swift */,
-				1075C9F627EBD750001E10E7 /* Assets.xcassets */,
+				1075CA0227EBD899001E10E7 /* Assets.xcassets */,
+				1075CA0427EBD95B001E10E7 /* Launch Screen.storyboard */,
 				1075C9F827EBD750001E10E7 /* Preview Content */,
 			);
 			path = Wordle;
@@ -125,8 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1075CA0527EBD95B001E10E7 /* Launch Screen.storyboard in Resources */,
+				1075CA0327EBD899001E10E7 /* Assets.xcassets in Resources */,
 				1075C9FA27EBD750001E10E7 /* Preview Assets.xcassets in Resources */,
-				1075C9F727EBD750001E10E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +278,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +308,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
